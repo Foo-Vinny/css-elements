@@ -1,0 +1,271 @@
+* {
+    color: white;
+    font-family: "comic sans ms";
+    font-family: 'Raleway', sans-serif;
+
+}
+
+body{
+    background-image: url("images/fond.jpg");
+    background-color: black;
+    margin:30px;
+}
+
+header {
+    text-align: center;
+}
+
+
+
+h1 {
+    font-size: 500%;
+    font-family: 'Raleway', serif;
+}
+
+nav {
+    display:none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+nav ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+nav ul li a:active {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* alignement des box grace a flexbox */
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: flex_end;
+
+}
+
+.section div{
+    border-radius: 15px;
+}
+
+.cellule {
+    margin: 5px;
+    opacity: 0.6;
+}
+
+.cellule div{
+    height: 90px;
+    width: 90px;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px gray;
+    transition-duration: 150ms;
+
+}
+
+.cellule p {
+    position: relative;
+    top: 17px;
+    text-align: center;
+    font-size: 0.9em;
+    transition-duration: 100ms;
+
+}
+
+/* mise en forme lien dans cellule */
+
+.lien img {
+    display:none;
+}
+
+.lien a{
+    background-color: initial;
+    text-decoration: none;
+}
+
+
+/* mise en forme du hover */
+
+.cellule:hover {
+    opacity: 1;
+    z-index:1;
+}
+
+.cellule:hover div{
+    transform: scale(1.8,1.8);
+    z-index:1;
+    box-shadow: none;
+    transition-duration:250ms;
+    opacity: 1;
+}
+
+.boite:hover p{
+    position:relative;
+    text-align:center;
+    margin:5px;
+    top:0px;
+    transition-duration: 100ms;
+}
+
+.lien img:hover {
+    transform: scale(1.4,1.4);
+}
+
+.boite:hover .logo img{
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    height: 15px;
+    width: 15px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    transition-duration: 250ms;
+}
+
+/*
+.cellule + .info {
+    display:inline;
+    position: absolute;
+    top:;
+    text-align:justify;
+    padding: 5px;
+    z-index:1;
+    border: 1px solid grey;
+    border-radius: 15px;
+    font-size: 1.2em;
+    animation-iteration-count: 5;
+}
+*/
+/* premiere section : */
+
+
+.section1 div div {
+    background-color:rgb(173, 255, 47);
+}
+
+.section1 div div p{
+    background-color: rgb(173, 255, 47);
+    color: black;
+}
+
+.index1 a{
+    color: rgb(173, 255, 47);
+}
+
+/* deuxieme section: */
+
+.section2 div {
+    background-color:rgb(62, 120, 185);
+}
+
+.section2 div p{
+    background-color:rgb(62, 120, 185);
+    color: black;
+}
+
+.index2 a{
+    color:rgb(62, 120, 185);
+}
+
+
+/* troiseme section */
+
+.section3 div {
+    background-color:rgb(169, 39, 180);
+}
+
+.section3 div p{
+    background-color:rgb(169, 39, 180);
+    color: black;
+}
+
+.index3 a{
+    color:rgb(169, 39, 180);
+}
+
+/* quatrieme section */
+
+.section4 div {
+    background-color:rgb(158, 14, 14);
+}
+
+.section4 div p{
+    background-color:rgb(158, 14, 14);
+    color: black;
+}
+
+.index4 a{
+    color:rgb(158, 14, 14)
+}
+
+/* cinquieme section */
+
+.section5 div {
+    background-color:rgb(235, 185, 47);
+}
+
+.section5 div p{
+    background-color:rgb(235, 185, 47);
+    color: black;
+}
+
+.index5 a{
+    color:rgb(235, 185, 47);
+}
+
+/* sixieme section */
+
+.section6 div {
+    background-color:rgb(88, 237, 248);
+}
+
+.section6 div p{
+    background-color:rgb(88, 237, 248);
+    color: black;
+}
+
+.index6 a{
+    color:rgb(88, 237, 248);
+}
+
+/* septieme section */
+
+.section7 div {
+    background-color:rgb(51, 54, 212);
+}
+
+.section7 div p{
+    background-color:rgb(51, 54, 212);
+    color: black;
+}
+
+.index7 a{
+    color:rgb(51, 54, 212);
+}
+
+
