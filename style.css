@@ -76,7 +76,7 @@ nav ul li a:hover {
 
 .cellule {
     margin: 5px;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 .cellule div{
@@ -114,6 +114,11 @@ nav ul li a:hover {
 .cellule:hover {
     opacity: 1;
     z-index:1;
+}
+
+
+.section:hover div{
+    box-shadow: 5px 5px 5px rgb(226, 220, 220)
 }
 
 .cellule:hover div{
